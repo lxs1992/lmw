@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="../css/Advertisement/Advertisement.css" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!--header-->
+    <div class="head">
+          <div class="head1">
+              <div class="header1">
+                  <span>澳优欢迎您</span>
+                  <span><a href="#">请登录</a></span>
+                  <span><a href="#">免费注册</a></span>
+                  <span><a href>手机澳优</a></span>
+              </div>
+              <div class="header2">
+                  <span id="span4"><a href="#">我的订单</a></span>
+                  <span class="dropdown">
+                      <span class="dropbtn"><a href="#">个人中心</a></span>
+                      <div class="dropdown-content">
+                        <a href="#">账号首页</a>
+                        <a href="#">个人信息</a>
+                        <a href="#">商品收藏</a>
+                        <a href="#">收货地址</a>
+                        <a href="#">退货记录</a>
+                        <a href="#">查看消息</a>
+                      </div>
+                </span>
+                  <span id="span6"><a href="#">会员中心</a></span>
+              </div>
+          </div>
+    </div>
+    <!--logo-->
+    <div class="logo">
+        <div class="logo-all">
+            <span class="logo-img">
+
+            </span>
+            <span class="logo-serch">
+               <!-- <input type="text"/>
+                <span class="serch-butt">
+                    <a href="#"><img src="../image/timg.jpg"></a>
+                </span>-->
+                <form class="bs-example bs-example-form" role="form">
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-addon" style="background-color: red"><a href="#" >搜索</a></span>
+                    </div>
+                </form>
+            </span>
+            <span class="logo-host">
+                <a href="#">未添加 &nbsp;&nbsp;&nbsp;|</a>
+            </span>
+            <span class="logo-cart">
+                <!--<a href="#">
+                    &lt;!&ndash;<img src="../image/cart.jpg">&ndash;&gt;
+                    购物车</a>-->
+                <a href="#shop"><span class="glyphicon glyphicon-shopping-cart"></span> 购物车</a>
+            </span>
+        </div>
+    </div>
+    <!--Navigation-->
+    <div class="Navigation">
+        <!--<div class="Navigation-all"></div>-->
+        <!--<div class="Navigation-all"></div>-->
+        <!--<div class="Navigation-all"></div>-->
+        <div class="Navigation-all">
+            <div class="Navigation-all-goods">
+                <span>
+                    <a href="#">全部商品分类</a>
+                </span>
+            </div>
+            <div class="Navigation-classify">
+                <span><a href=""><b>首页</b></a></span>
+                <span><a href=""><b>母婴儿童</b></a></span>
+                <span><a href=""><b>服饰鞋包</b></a></span>
+                <span><a href=""><b>营养保健</b></a></span>
+                <span><a href=""><b>护肤美容</b></a></span>
+                <span><a href=""><b>环球美食</b></a></span>
+            </div>
+        </div>
+    </div>
+    <!--Advertisement 广告-->
+    <div class="Advertisement">
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <a href="#"><img src="../static/image/Advertisement/1.jpg" alt="First slide" ></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../static/image/Advertisement/2.jpg" alt="Second slide" ></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../static/image/Advertisement/3.jpg" alt="Third slide" ></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../static/image/Advertisement/4.jpg" alt="Third slide"></a>
+                </div>
+                <div class="item">
+                    <a href="#"><img src="../static/image/Advertisement/5.jpg" alt="Third slide" ></a>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!-- 控制按钮 -->
+
+        <div style="text-align:center;">
+            <input type="button" class="btn start-slide" value="">
+            <input type="button" class="btn pause-slide" value="">
+            <input type="button" class="btn prev-slide" value="">
+            <input type="button" class="btn next-slide" value="">
+            <input type="button" class="btn slide-one" value=" ">
+            <input type="button" class="btn slide-two" value=" ">
+            <input type="button" class="btn slide-three" value="">
+        </div>
+    </div>
+    <!--statement 声明-->
+    <div class="statement">
+        <img src="../static/image/newing/d-icon01.png">
+        <img src="../static/image/newing/d-icon02.png">
+        <img src="../static/image/newing/d-icon03.png">
+        <img src="../static/image/newing/d-icon04.png">
+    </div>
+    <!--body-->
+    <div class="body"></div>
+    <!--blank-->
+    <div class="blank">
+
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-head">
+            <!--<div class="footer-img">--><img src="../static/image/newing/d-foot01.png"><!--</div>-->
+            <!--<div class="footer-img">--><img src="../static/image/newing/d-foot02.png"><!--</div>-->
+            <!--<div class="footer-img">--><img src="../static/image/newing/d-foot03.png"><!--</div>-->
+            <!--<div class="footer-img">--><img src="../static/image/newing/d-foot04.png"><!--</div>-->
+        </div>
+    </div>
+
+    <!--footer-body-->
+    <div class="blank">
+
+    </div>
+    <div class="footer-body">
+        <div class="footer-logo">
+
+        </div>
+        <div style="font-size: 16px">
+            权益保障
+            <a href="#">正品保障</a>
+            <a href="#">海外直购</a>
+            <a href="#">消费者告知书</a>
+        </div>
+        <div style="font-size: 16px">
+            新手指南
+            <a href="#">购物流程</a>
+            <a href="#">关税清关</a>
+            <a href="#">支付方式</a>
+            <a href="#">签收说明</a>
+        </div> <div style="font-size: 16px">
+            物流配送
+            <a href="#">配送方式</a>
+            <a href="#">配送服务</a>
+            <a href="#">配送价格</a>
+        </div>
+        <div style="font-size: 16px">
+            售后服务
+            <a href="#">退货政策</a>
+            <a href="#">退货流程</a>
+            <a href="#">退款说明</a>
+        </div> 
+        <div class="footer-img-end">
+
+        </div>
+    </div>
+    <!--footer-record-->
+    <div class="footer-record">
+        <div class="record-all">
+            <div class="record-head">
+                <a href="#">关于我们</a>|
+                <a href="#">联系我们</a>|
+                <a href="#">相关条例</a>|
+                <a href="#">商品税率表</a>
+            </div>
+            <div class="record-body">
+                <p>营业执照注册号（机构信用代码证 ）：91500000320392197U <span>出入境检验检疫报检企业备案号码：5000604987</span></p>
+                <p>海关注册编码：50052602FK<span>食品经营许可证：JY15003590046086</span></p>
+                <p> 渝公网安备号：50019002500824<span>渝ICP备14009517号</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-black">
+        <div class="right-all">
+            <button type="button" class="btn btn-primary btn-sm" style="font-size: 18px;color:red;">
+                <span class="glyphicon glyphicon-user"></span>
+            </button>
+            <a href="#">
+                <div class="right-cart" style="font-size: 18px">
+                    购物车
+                </div>
+            </a>
+            <div class="right-footprint"></div>
+        </div>
+    </div>
+
+<script>
+    $(function(){
+        // 初始化轮播
+        $(".start-slide").click(function(){
+            $("#myCarousel").carousel('cycle');
+        });
+        // 停止轮播
+        $(".pause-slide").click(function(){
+            $("#myCarousel").carousel('pause');
+        });
+        // 循环轮播到上一个项目
+        $(".prev-slide").click(function(){
+            $("#myCarousel").carousel('prev');
+        });
+        // 循环轮播到下一个项目
+        $(".next-slide").click(function(){
+            $("#myCarousel").carousel('next');
+        });
+        // 循环轮播到某个特定的帧
+        $(".slide-one").click(function(){
+            $("#myCarousel").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#myCarousel").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#myCarousel").carousel(2);
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+a{
+    text-decoration: none;
+/*  color: black;*/
+}
+
+.head{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    /*background-color: darkorchid;*/
+}
+.head a{
+    color: black;
+}
+.head1{
+    margin: 0 auto 0 auto;
+    height: 20px;
+    width: 1200px;
+    /*background-color: chocolate;*/
+}
+.header1 {
+    /*background-color: cadetblue;*/
+    width:320px;
+    height: 20px;
+    text-align: center;
+
+    float: left;
+}
+.header1 span{
+    font-size: 12px;
+    margin: 10px;
+}
+.header2 {
+    /*background-color: beige;*/
+    width:240px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    float: right;
+}
+/*header2 个人中心*/
+.dropbtn {
+    color: black;
+    padding:0px 12px 12px 12px ;
+    font-size: 12px;
+    border: none;
+}
+
+.dropdown {
+    clear: both;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: white;
+    display: none;
+    position: absolute;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    font-size:12px;
+    color: black;
+    padding: 2px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo{
+    margin: 5px 0 0 0;
+    /*background-color: brown;*/
+    height: 124px;
+    width: 100%;
+}
+.logo a{
+    color: black;
+}
+
+.logo-all {
+    /*background-color: blueviolet;*/
+    width: 1200px;
+    height: 124px;
+    margin: 0 auto;
+}
+.logo-img{
+    /*background-color: burlywood;*/
+    width:145px;
+    height: 124px;
+    float: left;
+    clear: both;
+}
+.logo-img {;
+    background: url("../image/logo.png") no-repeat;
+   /* background-size: contain;*/
+    background-size: 100% 100%;
+}
+.logo-serch{
+    margin: 30px 0px 0px 120px;
+   /* background-color: chartreuse;*/
+    width: 580px;
+    height: 39px;
+    float: left;
+}
+/*
+.logo-serch input{
+    width: 450px;
+    height: 90%;
+}
+
+.serch-butt img{
+    float: right;
+    width:60px;
+    height: 35px;
+}*/
+
+
+.logo-host{
+    margin: 10px 0px 0px 120px;
+    /*background-color: chartreuse;*/
+    width: 523px;
+    height: 20px;
+    float: left;
+}
+.logo-host a{
+    font-size: 12px;
+    margin: 0 auto;
+}
+.logo-cart {
+   /*background-color: lightgray;*/
+    width:134px;
+    height: 40px;
+    margin:-30px 50px 0 0;
+    border: 1px solid red;
+    text-align: center;
+    float: right;
+    /*使字体在框内居中*/
+    vertical-align: middle;
+    line-height: 40px;
+}
+.logo-cart a{
+    color: red;
+}
+
+/*.logo-cart img{
+    width: 30px;
+    height: 20px;
+}*/
+.Navigation{
+    margin: 1px 0 0 0;
+    /*background-color: cornsilk;*/
+    width: 100%;
+    height: 41px;
+}
+.Navigation-all{
+   /* background-color: darkkhaki;*/
+    width: 1200px;
+    height: 41px;
+    margin: 0 auto;
+}
+.Navigation-all a{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.Navigation-all-goods{
+    background-color: red;
+    width: 160px;
+    height: 40px;
+    /*border: 1px solid red;*/
+    float: left;
+}
+.Navigation-all-goods span{
+    margin: 20px 0px -5px 20px;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.Navigation-classify{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 920px;
+    height: 40px;
+  /*  background-color: lightgrey;*/
+
+    float: right;
+}
+
+
+.Navigation-classify span{
+    /*background-color: lightslategrey;*/
+    width: 164px;
+    height: 40px;
+    float: right;
+    vertical-align: middle;
+    line-height: 40px;
+    color: black;
+}
+.Advertisement{
+    width: 100%;
+    height: 600px;
+    background-color: darkseagreen;
+}
+#myCarousel{
+    width: 63%;
+    height: 600px;
+    background-color: lightslategrey;
+    margin: 0 auto;
+}
+.carousel-inner{
+    height: 600px;
+}
+.item img{
+    background-size: contain;
+}
+
+.statement{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 1200px;
+    height: 47px;
+   /* background-color: antiquewhite;*/
+    margin: 0 auto;
+}
+.statement img{
+    margin: 10px 40px 10px 40px;
+}
+.footer-img{
+    background-size: contain;
+}
+.body{
+    width: 100%;
+    height: 999px;
+    background-color: darkorchid;
+}
+.blank {
+    width:100%;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.footer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+   /* background-color: lightgrey;*/
+}
+
+.footer-head img{
+    /*background-color: cornflowerblue;*/
+   background-size: contain;
+    margin: 5px 20px 5px 20px ;
+}
+
+.footer-body{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 160px;
+   /* background-color: red;*/
+}
+
+.footer-body div{
+    width: 200px;
+    height: 140px;
+    /*background-color: slateblue;*/
+    margin: 10px 5px 0px 10px;
+    list-style-type: none;
+    text-align: center;
+}
+.footer-body a{
+    font-size: 14px;
+    color: black;
+}
+
+.footer-logo {
+    background: url("../image/logo.png")  no-repeat;
+    background-size: contain;
+}
+.footer-body a{
+    text-decoration: none;
+    display: block;
+}
+.footer-img-end {
+    background: url("../image/meinv.jpg") no-repeat;
+    background-size: contain;
+
+}
+.footer-record {
+    width: 100%;;
+    height: 200px;
+    background-color: black;
+}
+.record-all {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    /*background-color: white;*/
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    color: white;
+}
+.record-head{
+    height: 20%;
+}
+.record-head a{
+    margin: 10px 10px 0 10px;
+    width: 48px;
+    height: 16px;
+    color: white;
+}
+.record-body span{
+    margin: 0 20px;
+}
+
+.right-black{
+    width: 35px;
+    height: 100%;
+    z-index: 1002;
+    background-color: black;
+    position: fixed;
+    right: 0;
+    top:0;
+}
+
+.right-all {
+    width: 35px;
+    height: 269px;
+    margin-top: 350px;
+    background-color: black;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.right-user{
+    height: 38px;
+    background: url("../image/right/user.jpg");
+    background-size: contain;
+}
+.right-cart{
+    height: 133px;
+    margin-top: 30px;
+    background-color: lightgreen;
+    line-height: 25px;
+    text-align: center;
+}
+.right-cart a{
+    color: white;
+}
+.right-footprint {
+    height: 38px;
+    margin-top: 30px;
+    background-color: aqua;
+}
