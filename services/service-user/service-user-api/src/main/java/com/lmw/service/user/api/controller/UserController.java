@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/testUser")
-public class UserController {
+public class UserController extends BaserController{
     @Autowired
     private UserService userService;
 
@@ -26,7 +26,7 @@ public class UserController {
 
     @RequestMapping("deleteId")
     public Boolean deleteId(String name){
-        if(name==null && "".equals(name)){
+        if(name!=null && !"".equals(name)){
             return userService.deleteByName(name);
         }else {
             return false;

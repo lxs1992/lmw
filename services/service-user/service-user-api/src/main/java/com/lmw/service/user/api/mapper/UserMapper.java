@@ -11,5 +11,4 @@ public interface UserMapper {
     User select(int id);
     List findAll();
     boolean deleteByName(String name);
-
 }

@@ -11,10 +11,12 @@
         <module name="secure" />
         <module name="service-page-api" />
         <module name="service-user-api" />
-        <module name="servicepage" />
         <module name="serviceuser" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="servicepage" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
